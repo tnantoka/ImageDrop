@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B025ED1157CE44600A5FAFA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B025ED0157CE44600A5FAFA /* Cocoa.framework */; };
+		9B025EDB157CE44600A5FAFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B025ED9157CE44600A5FAFA /* InfoPlist.strings */; };
+		9B025EDD157CE44600A5FAFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B025EDC157CE44600A5FAFA /* main.m */; };
+		9B025EE1157CE44600A5FAFA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9B025EDF157CE44600A5FAFA /* Credits.rtf */; };
+		9B025EE4157CE44600A5FAFA /* IDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B025EE3157CE44600A5FAFA /* IDAppDelegate.m */; };
+		9B025EE7157CE44700A5FAFA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B025EE5157CE44700A5FAFA /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B025ECC157CE44600A5FAFA /* ImageDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B025ED0157CE44600A5FAFA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9B025ED3157CE44600A5FAFA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9B025ED4157CE44600A5FAFA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9B025ED5157CE44600A5FAFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B025ED8157CE44600A5FAFA /* ImageDrop-Info.plist */ = {isa = PBXFileReference; path = "ImageDrop-Info.plist"; sourceTree = "<group>"; };
+		9B025EDA157CE44600A5FAFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B025EDC157CE44600A5FAFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B025EDE157CE44600A5FAFA /* ImageDrop-Prefix.pch */ = {isa = PBXFileReference; path = "ImageDrop-Prefix.pch"; sourceTree = "<group>"; };
+		9B025EE0157CE44600A5FAFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9B025EE2157CE44600A5FAFA /* IDAppDelegate.h */ = {isa = PBXFileReference; path = IDAppDelegate.h; sourceTree = "<group>"; };
+		9B025EE3157CE44600A5FAFA /* IDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDAppDelegate.m; sourceTree = "<group>"; };
+		9B025EE6157CE44700A5FAFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B025EC9157CE44600A5FAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B025ED1157CE44600A5FAFA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B025EC1157CE44600A5FAFA = {
+			isa = PBXGroup;
+			children = (
+				9B025ED6157CE44600A5FAFA /* ImageDrop */,
+				9B025ECF157CE44600A5FAFA /* Frameworks */,
+				9B025ECD157CE44600A5FAFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B025ECD157CE44600A5FAFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B025ECC157CE44600A5FAFA /* ImageDrop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B025ECF157CE44600A5FAFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B025ED0157CE44600A5FAFA /* Cocoa.framework */,
+				9B025ED2157CE44600A5FAFA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B025ED2157CE44600A5FAFA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B025ED3157CE44600A5FAFA /* AppKit.framework */,
+				9B025ED4157CE44600A5FAFA /* CoreData.framework */,
+				9B025ED5157CE44600A5FAFA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9B025ED6157CE44600A5FAFA /* ImageDrop */ = {
+			isa = PBXGroup;
+			children = (
+				9B025EE2157CE44600A5FAFA /* IDAppDelegate.h */,
+				9B025EE3157CE44600A5FAFA /* IDAppDelegate.m */,
+				9B025EE5157CE44700A5FAFA /* MainMenu.xib */,
+				9B025ED7157CE44600A5FAFA /* Supporting Files */,
+			);
+			path = ImageDrop;
+			sourceTree = "<group>";
+		};
+		9B025ED7157CE44600A5FAFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B025ED8157CE44600A5FAFA /* ImageDrop-Info.plist */,
+				9B025ED9157CE44600A5FAFA /* InfoPlist.strings */,
+				9B025EDC157CE44600A5FAFA /* main.m */,
+				9B025EDE157CE44600A5FAFA /* ImageDrop-Prefix.pch */,
+				9B025EDF157CE44600A5FAFA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B025ECB157CE44600A5FAFA /* ImageDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B025EEA157CE44700A5FAFA /* Build configuration list for PBXNativeTarget "ImageDrop" */;
+			buildPhases = (
+				9B025EC8157CE44600A5FAFA /* Sources */,
+				9B025EC9157CE44600A5FAFA /* Frameworks */,
+				9B025ECA157CE44600A5FAFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageDrop;
+			productName = ImageDrop;
+			productReference = 9B025ECC157CE44600A5FAFA /* ImageDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B025EC3157CE44600A5FAFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ID;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 9B025EC6157CE44600A5FAFA /* Build configuration list for PBXProject "ImageDrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B025EC1157CE44600A5FAFA;
+			productRefGroup = 9B025ECD157CE44600A5FAFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B025ECB157CE44600A5FAFA /* ImageDrop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B025ECA157CE44600A5FAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B025EDB157CE44600A5FAFA /* InfoPlist.strings in Resources */,
+				9B025EE1157CE44600A5FAFA /* Credits.rtf in Resources */,
+				9B025EE7157CE44700A5FAFA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B025EC8157CE44600A5FAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B025EDD157CE44600A5FAFA /* main.m in Sources */,
+				9B025EE4157CE44600A5FAFA /* IDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B025ED9157CE44600A5FAFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B025EDA157CE44600A5FAFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9B025EDF157CE44600A5FAFA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B025EE0157CE44600A5FAFA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		9B025EE5157CE44700A5FAFA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B025EE6157CE44700A5FAFA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B025EE8157CE44700A5FAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9B025EE9157CE44700A5FAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9B025EEB157CE44700A5FAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageDrop/ImageDrop-Prefix.pch";
+				INFOPLIST_FILE = "ImageDrop/ImageDrop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B025EEC157CE44700A5FAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageDrop/ImageDrop-Prefix.pch";
+				INFOPLIST_FILE = "ImageDrop/ImageDrop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B025EC6157CE44600A5FAFA /* Build configuration list for PBXProject "ImageDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B025EE8157CE44700A5FAFA /* Debug */,
+				9B025EE9157CE44700A5FAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B025EEA157CE44700A5FAFA /* Build configuration list for PBXNativeTarget "ImageDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B025EEB157CE44700A5FAFA /* Debug */,
+				9B025EEC157CE44700A5FAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B025EC3157CE44600A5FAFA /* Project object */;
+}
