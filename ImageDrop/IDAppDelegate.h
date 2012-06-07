@@ -12,4 +12,12 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
+@property (assign) IBOutlet NSTextFieldCell *widthLabel;
+@property (assign) IBOutlet NSTextFieldCell *heightLabel;
+@property (assign) IBOutlet NSTextFieldCell *codeField;
+
+@property (assign) IBOutlet NSImageCell *imageCell;
+
+- (IBAction)imageAction:(id)sender;
+
 @end

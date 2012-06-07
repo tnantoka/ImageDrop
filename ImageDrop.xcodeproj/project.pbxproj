@@ -13,6 +13,7 @@
 		9B025EE1157CE44600A5FAFA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9B025EDF157CE44600A5FAFA /* Credits.rtf */; };
 		9B025EE4157CE44600A5FAFA /* IDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B025EE3157CE44600A5FAFA /* IDAppDelegate.m */; };
 		9B025EE7157CE44700A5FAFA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B025EE5157CE44700A5FAFA /* MainMenu.xib */; };
+		9B025EFA157E4CB400A5FAFA /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9B025EF9157E4CB400A5FAFA /* icon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,15 @@
 		9B025ED3157CE44600A5FAFA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		9B025ED4157CE44600A5FAFA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		9B025ED5157CE44600A5FAFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		9B025ED8157CE44600A5FAFA /* ImageDrop-Info.plist */ = {isa = PBXFileReference; path = "ImageDrop-Info.plist"; sourceTree = "<group>"; };
+		9B025ED8157CE44600A5FAFA /* ImageDrop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageDrop-Info.plist"; sourceTree = "<group>"; };
 		9B025EDA157CE44600A5FAFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B025EDC157CE44600A5FAFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9B025EDE157CE44600A5FAFA /* ImageDrop-Prefix.pch */ = {isa = PBXFileReference; path = "ImageDrop-Prefix.pch"; sourceTree = "<group>"; };
+		9B025EDE157CE44600A5FAFA /* ImageDrop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageDrop-Prefix.pch"; sourceTree = "<group>"; };
 		9B025EE0157CE44600A5FAFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		9B025EE2157CE44600A5FAFA /* IDAppDelegate.h */ = {isa = PBXFileReference; path = IDAppDelegate.h; sourceTree = "<group>"; };
+		9B025EE2157CE44600A5FAFA /* IDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDAppDelegate.h; sourceTree = "<group>"; };
 		9B025EE3157CE44600A5FAFA /* IDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDAppDelegate.m; sourceTree = "<group>"; };
 		9B025EE6157CE44700A5FAFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9B025EF9157E4CB400A5FAFA /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		9B025EC1157CE44600A5FAFA = {
 			isa = PBXGroup;
 			children = (
+				9B025EF9157E4CB400A5FAFA /* icon.icns */,
 				9B025ED6157CE44600A5FAFA /* ImageDrop */,
 				9B025ECF157CE44600A5FAFA /* Frameworks */,
 				9B025ECD157CE44600A5FAFA /* Products */,
@@ -156,6 +159,7 @@
 				9B025EDB157CE44600A5FAFA /* InfoPlist.strings in Resources */,
 				9B025EE1157CE44600A5FAFA /* Credits.rtf in Resources */,
 				9B025EE7157CE44700A5FAFA /* MainMenu.xib in Resources */,
+				9B025EFA157E4CB400A5FAFA /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +256,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImageDrop/ImageDrop-Prefix.pch";
 				INFOPLIST_FILE = "ImageDrop/ImageDrop-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -263,6 +268,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImageDrop/ImageDrop-Prefix.pch";
 				INFOPLIST_FILE = "ImageDrop/ImageDrop-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
